@@ -25,7 +25,6 @@ public class ActiTime4 {
 		ww.until(ExpectedConditions.textToBePresentInElementLocated(By.xpath("//input[@id='username']"), "admin"));
 		driver.findElement(By.xpath("//input[@class='textField pwdfield']")).sendKeys("manager");
 		driver.findElement(By.xpath("//a[@id='loginButton']")).click();
-//	System.out.println(usernametf.getText());
 
 	}
 }
